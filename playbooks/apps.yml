@@ -1,0 +1,21 @@
+---
+- name: Preparing Workstation
+  hosts: 
+  tasks:
+
+    - name: Installing Linux Apps
+      become: true
+      apt:
+        name: '{{ item }}'
+        install_recommends: yes
+        state: present
+      loop:
+          - vim
+          - htop
+          - curl
+          - wget
+          - tree
+          - apt-transport-https
+          - python3-pip
+          - git
+          - bash-completion

@@ -1,6 +1,3 @@
-# DevOps-My-Ansible
-Instalar e Facilitar Docker entre outros playbooks
-
 # Ansible #
 
 This README would normally document whatever steps are necessary to get your application up and running.

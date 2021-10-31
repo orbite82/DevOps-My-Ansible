@@ -1,0 +1,7 @@
+---
+- name: Teste Máquina devops
+  hosts: devops
+
+  tasks:
+    - name: Teste Dev
+      command: /root/./treino.sh
